@@ -2,15 +2,34 @@ body{
   font-family: Arial;
 }
 
+h1,h2,h3,h4,h5,p{
+  text-align: center;
+}
+
+#link{
+  color: white;
+  margin-left: 5px;
+}
+
 #select{
   background-color: transparent;
   color: gold;
   border: 1px solid gold;
 }
 
+.edit{
+  color: gold;
+  margin: 10px;
+  margin-left: 40%;
+}
+
+#checkbox{
+  margin-left: 10px;
+}
+
 .background{
   background-color: black;
-  opacity: 95%
+  opacity: 95%;
 }
 
 .card-collection{
@@ -23,4 +42,11 @@ body{
 .standout{
   box-shadow: gold 2px 2px 4px 5px;
   transform:rotate(1deg);
+}
+
+#Git{
+  height: 40px;
+  width: 40px;
+  opacity: 70%;
+  margin-left: 5px;
 }
